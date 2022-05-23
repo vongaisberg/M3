@@ -1,0 +1,34 @@
+
+.rotate {
+  animation: rotation 8s infinite linear;
+  mix-blend-mode: multiply;
+  width: 20%;
+  height: auto;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+
+
+
+
+body {
+    background-image: url("rainbowback.jpg");
+}
+
+p {
+    font-size: 20pt;
+}
+
+div.footer {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+  }
