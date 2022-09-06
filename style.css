@@ -17,16 +17,19 @@
 
 #rcorners2 {
   border-radius: 25px;
-  border: 2px solid #73AD21;
+  border: 5px solid red;
   padding: 20px;
-  width: 200px;
-  height: 150px;
+  margin: 5%;
+  color: red;
+  font-size: 2em;
+  width: 90%;
 }
 
 
 
 body {
     background-image: url("rainbowback.jpg");
+
 }
 
 p {
@@ -37,4 +40,14 @@ div.footer {
     position: absolute;
     bottom: 10px;
     width: 100%;
+  }
+
+  .blink_me {
+    animation: blinker 1s linear infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
   }
