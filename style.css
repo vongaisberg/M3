@@ -1,53 +1,7 @@
-
-.rotate {
-  animation: rotation 8s infinite linear;
-  mix-blend-mode: multiply;
-  width: 20%;
-  height: auto;
-}
-
-@keyframes rotation {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(359deg);
-  }
-}
-
-#rcorners2 {
-  border-radius: 25px;
-  border: 5px solid red;
-  padding: 20px;
-  margin: 5%;
-  color: red;
-  font-size: 2em;
-  width: 90%;
-}
-
-
-
 body {
-    background-image: url("rainbowback.jpg");
+    background-repeat:no-repeat;
+background-position: center center;
+    background-image: url(spooky.jpg);
+    background-color: black;
 
 }
-
-p {
-    font-size: 20pt;
-}
-
-div.footer {
-    position: absolute;
-    bottom: 10px;
-    width: 100%;
-  }
-
-  .blink_me {
-    animation: blinker 1s linear infinite;
-  }
-  
-  @keyframes blinker {
-    50% {
-      opacity: 0;
-    }
-  }
